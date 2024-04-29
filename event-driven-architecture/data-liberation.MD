@@ -76,5 +76,6 @@ As in many cases, the biggest obstacle to this type of innovation is cultural an
 
 ##### References
 *- Building Event-Driven Microservices by  Adam Bellemare*
+
 *- GOTO EDA Day 2023 (David Boyne, Sam Dengler, Brian Zambrano speeches)*
  
