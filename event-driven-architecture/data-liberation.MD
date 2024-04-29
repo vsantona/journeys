@@ -26,7 +26,7 @@ The definition of data liberation does not give us enough elements to fully unde
 Suppose we want to experiment with EDA and then introduce it into our current architecture, mainly made up of legacy monoliths, new microservices, and predominantly synchronous calls, as in the following example where three dependent services are querying the legacy system directly.
 
 
-![](Figure 1.png "Figure-1")
+![](/event-driven-architecture/Figure-1.png "Figure-1")
 
 This architecture is certainly suitable for the adoption of EDA since it is affected by synchronous communication problems, the coupling between services and above all the legacy monolith is central to the architecture and the new microservices depend on it.
 
@@ -36,7 +36,7 @@ With data liberation we introduce two new components to our architecture.
 An event stream to propagate events containing the data to be liberated, and a Data sourcing mechanism to send data to the event stream.
 The post-liberation workflow is shown below
 
-![](Figure 2.png "Figure-2")
+![](/event-driven-architecture/Figure-2.png "Figure-2")
 
 With this new architecture, the new services no longer depend directly on the legacy part, but rather use event streams to retrieve the data necessary to create their own internal aggregate of which they are the owner.
 The legacy service is then isolated, increasing the possibilities for refactoring and decommissioning/rewriting.
