@@ -3,7 +3,7 @@
 ## First of all, what is a journey?
 
 Before being a software engineer, I consider myself a continuous learner.
-Every day I try to learn something new by trying to improve my technical skills and soft skills, studying and above all enhancing on-the-job training and the competence of my colleagues.
+Every day I try to learn something new by trying to improve my technical skills and soft skills, studying and above all learning from on-the-job activities and the expertise of my colleagues.
 Sometimes, however, I try to delve deeper into a topic, reading books and articles, watching talks, and trying to do some experiments on it.
 From this study, I try to select particular aspects that are not central but which perhaps could add value to the analysis of the topic.
 This is where the journey was born, a series of articles relating to the same topic which analyze different aspects.
